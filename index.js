@@ -15,9 +15,9 @@ var randomImageSource2 = "images/dice" + randomNumber2 + ".png";
 document.querySelectorAll("img")[1].setAttribute("src",randomImageSource2);
 
 if(randomNumber1>randomNumber2){
-    document.querySelector("h1").innerHTML = "Player 1 Won!";
+    document.querySelector("h1").innerHTML = "Vannur Won!";
 }else if(randomNumber2>randomNumber1){
-    document.querySelector("h1").innerHTML = "Player 2 Won!";
+    document.querySelector("h1").innerHTML = "Shobha Won!";
 }else{
     document.querySelector("h1").innerHTML = "Match is Draw!"
 }
